@@ -12,6 +12,7 @@
 	 crossorigin="anonymous"> -->
 
 	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/style.css">
 
 	<title>
 		<?php echo $judul; ?>
@@ -20,7 +21,7 @@
 
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-xxx bg-xxx fixed-top">
 		<div class="container">
 
 			<a class="navbar-brand" href="<?= base_url(); ?>">KAKTUS KMI JOGJA</a>
@@ -31,7 +32,8 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
+
+				<ul class="nav navbar-nav navbar-right">
 
 					<!-- <li class="nav-item">
 						<a class="nav-link" href="#">Home <span class="sr-only"></span></a>
